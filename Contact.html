@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar nav navbar-expand-lg fixed-top navbarScroll ">
+        <div class="container">
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Certificate.html">Certificate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <section class="bgimage" id="index" style="height: 100vh;"> 
+            <div class="col-lg-6" style="margin-left: 250px;">
+                <script src="checkblack.js"></script>
+                    <h1 class="contactus">Contact Us</h1>
+                    <div class="contactform">
+                    <form action="Contact.html" method="post" onsubmit=" return checkforblank()">
+                        <!-- <div style="margin-left: 250px; margin-top: 300px;"> -->
+                         <input type="text" class="form-control mt-3" id="Name" placeholder="Name"> <input type="email" class="form-control mt-3" id="Email"  placeholder="Email">
+                        <input type="text" class="form-control mt-3" id="Contact No" placeholder="Contact No">
+                        <br>
+                    <button style="margin-left: 350px;" type="submit" class="btn btn-primary" onclick submit="window.location.href='contact.html';" >Submit</button > 
+                    </div>
+        </div>
+
+        </section>
+        
+    </body>
+</html>

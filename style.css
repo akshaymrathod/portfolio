@@ -1,0 +1,187 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+  color:black;
+}
+
+  /* nav ul li{
+  display: inline-block;
+  margin: 10px 20px; 
+}  */
+ nav ul li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+} 
+
+.nav-link {
+  color: yellow;
+  font-size:xx-large;
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+}
+.nav-link:hover {
+  /* background-color: black; */
+  /* color: yellowgreen; */
+  font-weight: bold;
+  font-size:x-large;
+
+}
+.bgimage {
+  width:auto;
+  height:auto;
+  background: url('profile_1.jpg');
+  background-size:cover;
+  background-position:center;
+  /* position: absolute; */
+}
+
+.bgimage:hover {
+  width:auto;
+  height:auto;
+  background: url('https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80');
+  background-size:cover;
+  background-position:center;
+  /* position: absolute; */
+}
+.img_title {
+  font-size: 4.5rem;
+
+}
+.img_desc {
+  font-size: 3rem;
+  animation-name:myanim ;
+  animation-duration:3s ;
+  
+}
+@keyframes myanim{
+  100%{color: #0f8343;}
+  75%{color:rgb(85, 85, 12)}
+  50%{color: #972511;}
+  25%{color:rgba(7, 169, 42, 0.79)}
+}
+
+.header {
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left:55%;
+  transform: translate(-50%, -50%);
+  color: black;
+ 
+}
+.header h1{
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+}
+.header span{
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+}
+.skills {
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left:55%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: larger;
+}
+
+.skills li{
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+}
+
+
+.cerfit {
+  width: 31%;
+  height: 31%;
+  position:absolute;
+  top: 43%; 
+  left: 34%; 
+}
+.cerfit:hover  {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top:10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+}
+
+.container2 h1{
+  position: absolute;
+  top: 20%;
+  left:43%;
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+}
+.container2 h2{
+  position: absolute;
+  top: 30%;
+  left:30%;
+}
+
+#d1{
+  font-weight: bold;
+  font-size: 50px
+}
+.container1 h1{
+  position: absolute;
+  top: 12%;
+  left:40%;
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+}
+.container1 h4{
+  position: absolute;
+  top: 20%;
+  left:25%;
+
+}
+.about {
+  text-align: left;
+  position: absolute;
+  top: 82%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: larger;
+}
+.contactus{
+  font-size: 150px;
+  position: absolute;
+  top: 10%;
+  left:20%;
+  animation-name:myanim ;
+  animation-duration:3s ;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+}
+.contactform{
+  /* font-size: 150px; */
+  position: absolute;
+  top: 47%;
+  left:35%;
+}
+
+
